@@ -1,0 +1,2 @@
+"use strict";function e(e){var t=Object.create(null);return e&&Object.keys(e).forEach((function(r){if("default"!==r){var l=Object.getOwnPropertyDescriptor(e,r);Object.defineProperty(t,r,l.get?l:{enumerable:!0,get:function(){return e[r]}})}})),t.default=e,Object.freeze(t)}var t=e(require("@radix-ui/react-collapsible")),r=t.Root,l=t.CollapsibleTrigger,o=t.CollapsibleContent;exports.Collapsible=r,exports.CollapsibleContent=o,exports.CollapsibleTrigger=l;
+//# sourceMappingURL=index.js.map
